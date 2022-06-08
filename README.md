@@ -1,2 +1,2 @@
 # ClashRule
-Clash订阅转换
+Clash订阅转换规则

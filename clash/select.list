@@ -49,6 +49,7 @@ DOMAIN-KEYWORD,sci-hub
 DOMAIN-KEYWORD,spotify
 DOMAIN-KEYWORD,twitter
 DOMAIN-KEYWORD,whatsapp
+DOMAIN-KEYWORD,apkpure
 # GFW list
 DOMAIN-SUFFIX,gfwlist.start
 DOMAIN-SUFFIX,000webhost.com
@@ -371,7 +372,6 @@ DOMAIN-SUFFIX,apkcombo.com
 DOMAIN-SUFFIX,apkmirror.com
 DOMAIN-SUFFIX,apkmonk.com
 DOMAIN-SUFFIX,apkplz.com
-DOMAIN-SUFFIX,apkpure.com
 DOMAIN-SUFFIX,aplusvpn.com
 DOMAIN-SUFFIX,appbrain.com
 DOMAIN-SUFFIX,appdownloader.net
@@ -2638,12 +2638,14 @@ DOMAIN-SUFFIX,imageab.com
 DOMAIN-SUFFIX,imagefap.com
 DOMAIN-SUFFIX,imageflea.com
 DOMAIN-SUFFIX,images-gaytube.com
+DOMAIN-SUFFIX,image.winudf.com
 DOMAIN-SUFFIX,imageshack.us
 DOMAIN-SUFFIX,imagevenue.com
 DOMAIN-SUFFIX,imagezilla.net
 DOMAIN-SUFFIX,imb.org
 DOMAIN-SUFFIX,imdb.com
 DOMAIN-SUFFIX,img.ly
+DOMAIN-SUFFIX,img.sftcdn.net
 DOMAIN-SUFFIX,imgchili.net
 DOMAIN-SUFFIX,imgmega.com
 DOMAIN-SUFFIX,imgur.com

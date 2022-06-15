@@ -22,6 +22,7 @@ DOMAIN-SUFFIX,freeyoutubeproxy.net
 DOMAIN-SUFFIX,listentoyoutube.com
 DOMAIN-SUFFIX,onlineyoutube.com
 DOMAIN-SUFFIX,youtubecn.com
+IP-CIDR,142.251.0.0/16,no-resolve
 IP-CIDR,172.110.32.0/21,no-resolve
 IP-CIDR,172.217.26.224/27,no-resolve
 IP-CIDR,142.250.188.0/23,no-resolve

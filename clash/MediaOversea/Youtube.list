@@ -22,6 +22,7 @@ DOMAIN-SUFFIX,freeyoutubeproxy.net
 DOMAIN-SUFFIX,listentoyoutube.com
 DOMAIN-SUFFIX,onlineyoutube.com
 DOMAIN-SUFFIX,youtubecn.com
+IP-CIDR,172.217.168.0/21,no-resolve
 # YouTubeMusic
 USER-AGENT,*YouTubeMusic*
 USER-AGENT,*com.google.ios.youtubemusic*

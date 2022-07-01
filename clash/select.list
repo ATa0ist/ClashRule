@@ -177,7 +177,6 @@ DOMAIN-KEYWORD,facebook
 DOMAIN-KEYWORD,fbcdn
 DOMAIN-KEYWORD,github
 DOMAIN-KEYWORD,instagram
-DOMAIN-KEYWORD,porn
 DOMAIN-KEYWORD,sci-hub
 DOMAIN-KEYWORD,spotify
 DOMAIN-KEYWORD,twitter
@@ -304,7 +303,6 @@ DOMAIN-SUFFIX,8news.com.tw
 DOMAIN-SUFFIX,8z1.net
 DOMAIN-SUFFIX,9001700.com
 DOMAIN-SUFFIX,908taiwan.org
-DOMAIN-SUFFIX,91porn.com
 DOMAIN-SUFFIX,91vps.club
 DOMAIN-SUFFIX,92ccav.com
 DOMAIN-SUFFIX,991.com
@@ -3738,24 +3736,6 @@ DOMAIN-SUFFIX,popvote.hk
 DOMAIN-SUFFIX,popxi.click
 DOMAIN-SUFFIX,popyard.com
 DOMAIN-SUFFIX,popyard.org
-DOMAIN-SUFFIX,porn.com
-DOMAIN-SUFFIX,porn2.com
-DOMAIN-SUFFIX,porn5.com
-DOMAIN-SUFFIX,pornbase.org
-DOMAIN-SUFFIX,pornerbros.com
-DOMAIN-SUFFIX,pornhd.com
-DOMAIN-SUFFIX,pornhost.com
-DOMAIN-SUFFIX,pornhubdeutsch.net
-DOMAIN-SUFFIX,pornmm.net
-DOMAIN-SUFFIX,pornoxo.com
-DOMAIN-SUFFIX,pornrapidshare.com
-DOMAIN-SUFFIX,pornsharing.com
-DOMAIN-SUFFIX,pornsocket.com
-DOMAIN-SUFFIX,pornstarclub.com
-DOMAIN-SUFFIX,porntube.com
-DOMAIN-SUFFIX,porntubenews.com
-DOMAIN-SUFFIX,porntvblog.com
-DOMAIN-SUFFIX,pornvisit.com
 DOMAIN-SUFFIX,port25.biz
 DOMAIN-SUFFIX,portablevpn.nl
 DOMAIN-SUFFIX,poskotanews.com
@@ -5729,16 +5709,7 @@ DOMAIN-SUFFIX,spoprod-a.akamaihd.net
 DOMAIN-SUFFIX,storage.live.com
 DOMAIN-SUFFIX,storage.msn.com
 #DOMAIN-SUFFIX,aria.microsoft.com
-# Porn
-DOMAIN-SUFFIX,8teenxxx.com
-DOMAIN-SUFFIX,ahcdn.com
-DOMAIN-SUFFIX,bcvcdn.com
-DOMAIN-SUFFIX,dditscdn.com
-DOMAIN-SUFFIX,livejasmin.com
-DOMAIN-SUFFIX,rdtcdn.com
-DOMAIN-SUFFIX,sb-cd.com
-DOMAIN-SUFFIX,xnxx-cdn.com
-DOMAIN-SUFFIX,ypncdn.com
+
 # Spark
 DOMAIN-SUFFIX,amplitude.com
 DOMAIN-SUFFIX,hockeyapp.net

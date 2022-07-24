@@ -319,6 +319,9 @@ DOMAIN-SUFFIX,viu.com
 DOMAIN-SUFFIX,viu.now.com
 DOMAIN-SUFFIX,viu.tv
 
+# MyList
+DOMAIN-SUFFIX,emby.wtf
+
 # MyList-porn
 DOMAIN-SUFFIX,jable.tv
 DOMAIN-KEYWORD,porn

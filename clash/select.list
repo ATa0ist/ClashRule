@@ -5721,6 +5721,7 @@ DOMAIN-SUFFIX,readdle.com
 DOMAIN-SUFFIX,tap.io
 DOMAIN-SUFFIX,taptap.tw
 # Twitter
+DOMAIN,t.co
 DOMAIN-SUFFIX,twimg.co
 DOMAIN-SUFFIX,twimg.org
 # TeraBox

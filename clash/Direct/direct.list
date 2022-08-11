@@ -1,3 +1,6 @@
+# jichang
+DOMAIN-SUFFIX,fastlink.pro
+DOMAIN-SUFFIX,fastlink.so
 # Mac Download
 PROCESS-NAME,aria2c.exe
 PROCESS-NAME,fdm.exe

@@ -114,7 +114,6 @@ DOMAIN-SUFFIX,mktroute.com
 DOMAIN-SUFFIX,mobilemarketo.com
 DOMAIN-SUFFIX,motolia.com
 DOMAIN-SUFFIX,newrelic.com
-DOMAIN-SUFFIX,omniroot.com
 DOMAIN-SUFFIX,omniture.com
 DOMAIN-SUFFIX,omtrdc.net
 DOMAIN-SUFFIX,pdf.new
@@ -578,7 +577,6 @@ DOMAIN-SUFFIX,axureformac.com
 DOMAIN-SUFFIX,azerbaycan.tv
 DOMAIN-SUFFIX,azerimix.com
 DOMAIN-SUFFIX,azubu.tv
-DOMAIN-SUFFIX,azurewebsites.net
 DOMAIN-SUFFIX,b-ok.cc
 DOMAIN-SUFFIX,b0ne.com
 DOMAIN-SUFFIX,baby-kingdom.com
@@ -688,7 +686,6 @@ DOMAIN-SUFFIX,bild.de
 DOMAIN-SUFFIX,biliworld.com
 DOMAIN-SUFFIX,billypan.com
 DOMAIN-SUFFIX,binance.com
-DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,binux.me
 DOMAIN-SUFFIX,binwang.me
 DOMAIN-SUFFIX,bird.so
@@ -1484,7 +1481,6 @@ DOMAIN-SUFFIX,ecministry.net
 DOMAIN-SUFFIX,economist.com
 DOMAIN-SUFFIX,ecstart.com
 DOMAIN-SUFFIX,edgecastcdn.net
-DOMAIN-SUFFIX,edgesuite.net
 DOMAIN-SUFFIX,edicypages.com
 DOMAIN-SUFFIX,edmontonchina.cn
 DOMAIN-SUFFIX,edmontonservice.com
@@ -2194,7 +2190,6 @@ DOMAIN-SUFFIX,hentai.to
 DOMAIN-SUFFIX,hentaitube.tv
 DOMAIN-SUFFIX,hentaivideoworld.com
 DOMAIN-SUFFIX,heqinglian.net
-DOMAIN-SUFFIX,here.com
 DOMAIN-SUFFIX,heritage.org
 DOMAIN-SUFFIX,heroku.com
 DOMAIN-SUFFIX,heungkongdiscuss.com
@@ -2878,7 +2873,6 @@ DOMAIN-SUFFIX,liuhanyu.com
 DOMAIN-SUFFIX,liujianshu.com
 DOMAIN-SUFFIX,liuxiaobo.net
 DOMAIN-SUFFIX,liuxiaotong.com
-DOMAIN-SUFFIX,live.com
 DOMAIN-SUFFIX,livecoin.net
 DOMAIN-SUFFIX,livedoor.jp
 DOMAIN-SUFFIX,liveleak.com
@@ -3176,8 +3170,6 @@ DOMAIN-SUFFIX,msa-it.org
 DOMAIN-SUFFIX,msguancha.com
 DOMAIN-SUFFIX,msgsuite.workers.dev
 DOMAIN-SUFFIX,msha.gov
-DOMAIN-SUFFIX,msn.com
-DOMAIN-SUFFIX,msn.com.tw
 DOMAIN-SUFFIX,mswe1.org
 DOMAIN-SUFFIX,mthruf.com
 DOMAIN-SUFFIX,mtw.tl
@@ -4212,7 +4204,6 @@ DOMAIN-SUFFIX,skk.moe
 DOMAIN-SUFFIX,skybet.com
 DOMAIN-SUFFIX,skykiwi.com
 DOMAIN-SUFFIX,skynet.be
-DOMAIN-SUFFIX,skype.com
 DOMAIN-SUFFIX,skyvegas.com
 DOMAIN-SUFFIX,skyxvpn.com
 DOMAIN-SUFFIX,slacker.com
@@ -5699,24 +5690,8 @@ IP-CIDR,119.235.235.0/24,no-resolve
 IP-CIDR,119.235.236.0/23,no-resolve
 IP-CIDR,147.92.128.0/17,no-resolve
 IP-CIDR,203.104.128.0/19,no-resolve
-# OneDrive
-DOMAIN-KEYWORD,1drv
-DOMAIN-KEYWORD,onedrive
-DOMAIN-KEYWORD,skydrive
-DOMAIN-SUFFIX,livefilestore.com
-DOMAIN-SUFFIX,oneclient.sfx.ms
-DOMAIN-SUFFIX,onedrive.com
-DOMAIN-SUFFIX,onedrive.live.com
-DOMAIN-SUFFIX,photos.live.com
-DOMAIN-SUFFIX,skydrive.wns.windows.com
-DOMAIN-SUFFIX,spoprod-a.akamaihd.net
-DOMAIN-SUFFIX,storage.live.com
-DOMAIN-SUFFIX,storage.msn.com
-#DOMAIN-SUFFIX,aria.microsoft.com
-
 # Spark
 DOMAIN-SUFFIX,amplitude.com
-DOMAIN-SUFFIX,hockeyapp.net
 DOMAIN-SUFFIX,readdle.com
 # TapTap
 DOMAIN-SUFFIX,tap.io

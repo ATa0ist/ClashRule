@@ -138,6 +138,8 @@ DOMAIN-SUFFIX,votolia.com
 DOMAIN-SUFFIX,worldsecureemail.com
 DOMAIN-SUFFIX,worldsecuresystems.com
 # MyList && Other
+DOMAIN-SUFFIX,fanart.tv
+DOMAIN-SUFFIX,omdbapi.com
 DOMAIN-KEYWORD,themoviedb
 DOMAIN-KEYWORD,thetvdb
 DOMAIN-SUFFIX,1password.com

@@ -102,6 +102,7 @@ rule = ["[]DIRECT", "[]🚀 备用", "[]🚀 备测", "!!GROUPID=0!!(^(?!.*(网�
 name = "STEAM"
 type = "select"
 rule = ["[]DIRECT", "[]🚀 备用", "[]🚀 备测", "!!GROUPID=0!!(^(?!.*(网易)).*)"]
+
 [[custom_groups]]
 name = "📢 谷歌FCM"
 type = "select"
@@ -152,6 +153,12 @@ url = "http://www.gstatic.com/generate_204"
 interval = 300
 tolerance = 100
 lazy = true
+
+#链式代理
+#[[custom_groups]]
+#name = "链式"
+#type = "relay"
+#rule = ["[]REJECT", "[]DIRECT", "[]🔰 节点选择"]
 
 #[ruleset]
 # Enable generating rules with rulesets

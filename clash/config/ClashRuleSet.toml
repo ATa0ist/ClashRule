@@ -21,12 +21,12 @@ rule = ["[]DIRECT", "[]🚀 手动1", "[]🚀 手动2", "[]🚀 备用", "[]🚀
 [[custom_groups]]
 name = "🚀 手动1"
 type = "select"
-rule = ["!!GROUPID=0!!(^(?!.*(网易)).*)"]
+rule = ["!!GROUPID=0!!.*"]
 
 [[custom_groups]]
 name = "🚀 手动2"
 type = "select"
-rule = ["!!GROUPID=0!!(^(?!.*(网易)).*)"]
+rule = ["!!GROUPID=0!!.*"]
 
 [[custom_groups]]
 name = "🐟 漏网"
@@ -36,17 +36,17 @@ rule = ["[]DIRECT", "[]🔰 节点选择", "[]🚀 备用", "[]🚀 备测"]
 [[custom_groups]]
 name = "🎬 迪士尼"
 type = "select"
-rule = ["[]DIRECT", "[]🚀 备用", "!!GROUPID=0!!(^(?!.*(网易)).*)"]
+rule = ["[]DIRECT", "[]🚀 备用", "!!GROUPID=0!!.*"]
 
 [[custom_groups]]
 name = "🎥 奈飞"
 type = "select"
-rule = ["[]DIRECT", "[]🚀 备用", "!!GROUPID=0!!(^(?!.*(网易)).*)"]
+rule = ["[]DIRECT", "[]🚀 备用", "!!GROUPID=0!!.*"]
 
 [[custom_groups]]
 name = "⭕ 油管"
 type = "select"
-rule = ["[]DIRECT", "[]🚀 手动2", "[]🚀 备用", "[]🚀 备测", "!!GROUPID=0!!(^(?!.*(BGP|港|网易)).*)", "!!GROUPID=0!!(BGP|港)"]
+rule = ["[]DIRECT", "[]🚀 手动2", "[]🚀 备用", "[]🚀 备测", "!!GROUPID=0!!(^(?!.*(BGP|港)).*)", "!!GROUPID=0!!(BGP|港)"]
 
 [[custom_groups]]
 name = "🅿 谷歌"
@@ -81,27 +81,27 @@ rule = ["[]DIRECT", "!!GROUPID=0!!(港|台|HK|TW)", "!!GROUPID=1!!(港|台|HK|TW
 [[custom_groups]]
 name = "📽 国外媒体"
 type = "select"
-rule = ["[]DIRECT", "[]🚀 备用", "[]🚀 备测", "!!GROUPID=0!!(^(?!.*(网易)).*)"]
+rule = ["[]DIRECT", "[]🚀 备用", "[]🚀 备测", "!!GROUPID=0!!.*"]
 
 [[custom_groups]]
 name = "📽 国内媒体"
 type = "select"
-rule = ["[]DIRECT", "[]🚀 备用", "[]🚀 备测", "!!GROUPID=0!!(^(?!.*(网易)).*)"]
+rule = ["[]DIRECT", "[]🚀 备用", "[]🚀 备测", "!!GROUPID=0!!(.*"]
 
 [[custom_groups]]
 name = "🎮 游戏"
 type = "select"
-rule = ["[]DIRECT", "[]🚀 备用", "[]🚀 备测", "!!GROUPID=0!!(^(?!.*(网易)).*)"]
+rule = ["[]DIRECT", "[]🚀 备用", "[]🚀 备测", "!!GROUPID=0!!.*"]
 
 [[custom_groups]]
 name = "EPIC"
 type = "select"
-rule = ["[]DIRECT", "[]🚀 备用", "[]🚀 备测", "!!GROUPID=0!!(^(?!.*(网易)).*)"]
+rule = ["[]DIRECT", "[]🚀 备用", "[]🚀 备测", "!!GROUPID=0!!.*"]
 
 [[custom_groups]]
 name = "STEAM"
 type = "select"
-rule = ["[]DIRECT", "[]🚀 备用", "[]🚀 备测", "!!GROUPID=0!!(^(?!.*(网易)).*)"]
+rule = ["[]DIRECT", "[]🚀 备用", "[]🚀 备测", "!!GROUPID=0!!.*"]
 
 [[custom_groups]]
 name = "📢 谷歌FCM"

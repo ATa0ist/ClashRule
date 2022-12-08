@@ -21,12 +21,12 @@ rule = ["[]DIRECT", "[]🚀 手动1", "[]🚀 手动2", "[]🚀 备用", "[]🚀
 [[custom_groups]]
 name = "🚀 手动1"
 type = "select"
-rule = ["!!GROUPID=0!!.*"]
+rule = ["!!GROUPID=0!!(^(?!.*(网易)).*)"]
 
 [[custom_groups]]
 name = "🚀 手动2"
 type = "select"
-rule = ["!!GROUPID=0!!.*"]
+rule = ["!!GROUPID=0!!(^(?!.*(网易)).*)"]
 
 [[custom_groups]]
 name = "🐟 漏网"
@@ -36,17 +36,17 @@ rule = ["[]DIRECT", "[]🔰 节点选择", "[]🚀 备用", "[]🚀 备测"]
 [[custom_groups]]
 name = "🎬 迪士尼"
 type = "select"
-rule = ["[]DIRECT", "[]🚀 备用", "!!GROUPID=0!!.*"]
+rule = ["[]DIRECT", "[]🚀 备用", "!!GROUPID=0!!(^(?!.*(网易)).*)"]
 
 [[custom_groups]]
 name = "🎥 奈飞"
 type = "select"
-rule = ["[]DIRECT", "[]🚀 备用", "!!GROUPID=0!!.*"]
+rule = ["[]DIRECT", "[]🚀 备用", "!!GROUPID=0!!(^(?!.*(网易)).*)"]
 
 [[custom_groups]]
 name = "⭕ 油管"
 type = "select"
-rule = ["[]DIRECT", "[]🚀 手动2", "[]🚀 备用", "[]🚀 备测", "!!GROUPID=0!!(^(?!.*(BGP|港)).*)", "!!GROUPID=0!!(BGP|港)"]
+rule = ["[]DIRECT", "[]🚀 手动2", "[]🚀 备用", "[]🚀 备测", "!!GROUPID=0!!(^(?!.*(BGP|港|网易)).*)", "!!GROUPID=0!!(BGP|港)"]
 
 [[custom_groups]]
 name = "🅿 谷歌"
@@ -66,12 +66,12 @@ rule = ["[]DIRECT", "[]负载", "[]故障", "[]测速", "[]🚀 备用", "[]🚀
 [[custom_groups]]
 name = "👾 TikTok"
 type = "select"
-rule = ["[]DIRECT", "[]🚀 备用", "[]🚀 备测", "!!GROUPID=0!!.*"]
+rule = ["[]DIRECT", "[]🚀 备用", "[]🚀 备测", "!!GROUPID=0!!(^(?!.*(网易)).*)"]
 
 [[custom_groups]]
 name = "🃏 Emby"
 type = "select"
-rule = ["[]DIRECT", "[]🚀 备用", "[]🚀 备测", "!!GROUPID=0!!.*"]
+rule = ["[]DIRECT", "[]🚀 备用", "[]🚀 备测", "!!GROUPID=0!!(^(?!.*(网易)).*)"]
 
 [[custom_groups]]
 name = "📺 哔哩哔哩"
@@ -81,27 +81,27 @@ rule = ["[]DIRECT", "!!GROUPID=0!!(港|台|HK|TW)", "!!GROUPID=1!!(港|台|HK|TW
 [[custom_groups]]
 name = "📽 国外媒体"
 type = "select"
-rule = ["[]DIRECT", "[]🚀 备用", "[]🚀 备测", "!!GROUPID=0!!.*"]
+rule = ["[]DIRECT", "[]🚀 备用", "[]🚀 备测", "!!GROUPID=0!!(^(?!.*(网易)).*)"]
 
 [[custom_groups]]
 name = "📽 国内媒体"
 type = "select"
-rule = ["[]DIRECT", "[]🚀 备用", "[]🚀 备测", "!!GROUPID=0!!(.*"]
+rule = ["[]DIRECT", "[]🚀 备用", "[]🚀 备测", "!!GROUPID=0!!(^(?!.*(网易)).*)"]
 
 [[custom_groups]]
 name = "🎮 游戏"
 type = "select"
-rule = ["[]DIRECT", "[]🚀 备用", "[]🚀 备测", "!!GROUPID=0!!.*"]
+rule = ["[]DIRECT", "[]🚀 备用", "[]🚀 备测", "!!GROUPID=0!!(^(?!.*(网易)).*)"]
 
 [[custom_groups]]
 name = "EPIC"
 type = "select"
-rule = ["[]DIRECT", "[]🚀 备用", "[]🚀 备测", "!!GROUPID=0!!.*"]
+rule = ["[]DIRECT", "[]🚀 备用", "[]🚀 备测", "!!GROUPID=0!!(^(?!.*(网易)).*)"]
 
 [[custom_groups]]
 name = "STEAM"
 type = "select"
-rule = ["[]DIRECT", "[]🚀 备用", "[]🚀 备测", "!!GROUPID=0!!.*"]
+rule = ["[]DIRECT", "[]🚀 备用", "[]🚀 备测", "!!GROUPID=0!!(^(?!.*(网易)).*)"]
 
 [[custom_groups]]
 name = "📢 谷歌FCM"
@@ -111,7 +111,7 @@ rule = ["[]DIRECT", "[]🅿 谷歌", "[]🔰 节点选择", "[]🚀 手动1", "[
 [[custom_groups]]
 name = "故障"
 type = "fallback"
-rule = ["!!GROUPID=0!!.*"]
+rule = ["!!GROUPID=0!!(^(?!.*(网易)).*)"]
 url = "http://www.gstatic.com/generate_204"
 interval = 300
 tolerance = 100

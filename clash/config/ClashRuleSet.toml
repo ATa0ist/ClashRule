@@ -197,6 +197,10 @@ group = "🃏 Emby"
 ruleset = "https://raw.githubusercontent.com/ATa0ist/ClashRule/main/clash/MediaOversea/Emby.list"
 
 [[rulesets]]
+group = "📺 哔哩哔哩"
+ruleset = "https://raw.githubusercontent.com/ATa0ist/ClashRule/main/clash/MediaOversea/bilibili.list"
+
+[[rulesets]]
 group = "📽 国外媒体"
 ruleset = "https://raw.githubusercontent.com/ATa0ist/ClashRule/main/clash/MediaOversea/MediaOversea.list"
 

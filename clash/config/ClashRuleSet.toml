@@ -56,7 +56,7 @@ rule = ["[]⭕ 油管", "[]🔰 节点选择", "[]🚀 手动2", "[]🚀 备用"
 [[custom_groups]]
 name = "🌀 微软"
 type = "select"
-rule = ["[]DIRECT", "[]🔰 节点选择", "[]🚀 手动1", "[]🚀 手动2", "[]🚀 备用", "[]🚀 备测"]
+rule = ["[]DIRECT", "[]🚀 备用", "!!GROUPID=0!!(^(?!.*(网易)).*)"]
 
 [[custom_groups]]
 name = "📱 电报"

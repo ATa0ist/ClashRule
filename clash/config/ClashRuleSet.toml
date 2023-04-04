@@ -14,6 +14,11 @@ type = "select"
 rule = ["[]DIRECT", "[]🔰 节点选择", "[]🚀 手动1", "[]🚀 手动2", "[]🚀 备用", "[]🚀 备测"]
 
 [[custom_groups]]
+name = "🗝 OpenAI"
+type = "select"
+rule = ["[]DIRECT", "[]🚀 备用", "!!GROUPID=0!!(^(?!.*(网易)).*)"]
+
+[[custom_groups]]
 name = "🔰 节点选择"
 type = "select"
 rule = ["[]DIRECT", "[]🚀 手动1", "[]🚀 手动2", "[]🚀 备用", "[]🚀 备测", "[]故障", "[]负载", "[]测速"]
@@ -163,6 +168,10 @@ lazy = true
 #[ruleset]
 # Enable generating rules with rulesets
 #enabled = true
+
+[[rulesets]]
+group = "🗝 OpenAI"
+ruleset = "https://raw.githubusercontent.com/ATa0ist/ClashRule/main/clash/openai.list"
 
 [[rulesets]]
 group = "📋 我的清单"

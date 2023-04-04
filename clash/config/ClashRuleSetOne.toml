@@ -1,0 +1,244 @@
+version = 1
+[custom]
+enable_rule_generator = true
+overwrite_original_rules = true
+
+[[custom_groups]]
+name = "🎯 直连"
+type = "select"
+rule = ["[]DIRECT", "[]🔰 节点选择", "[]🚀 手动1", "[]🚀 手动2"]
+
+[[custom_groups]]
+name = "📋 我的清单"
+type = "select"
+rule = ["[]DIRECT", "[]🔰 节点选择", "[]🚀 手动1", "[]🚀 手动2"]
+
+[[custom_groups]]
+name = "🗝 OpenAI"
+type = "select"
+rule = ["[]DIRECT", "(^(?!.*(网易)).*)"]
+
+[[custom_groups]]
+name = "🔰 节点选择"
+type = "select"
+rule = ["[]DIRECT", "[]🚀 手动1", "[]🚀 手动2", "[]故障", "[]负载", "[]测速"]
+
+[[custom_groups]]
+name = "🚀 手动1"
+type = "select"
+rule = ["(^(?!.*(网易)).*)"]
+
+[[custom_groups]]
+name = "🚀 手动2"
+type = "select"
+rule = ["(^(?!.*(网易)).*)"]
+
+[[custom_groups]]
+name = "🐟 漏网"
+type = "select"
+rule = ["[]DIRECT", "[]🔰 节点选择"]
+
+[[custom_groups]]
+name = "🎬 迪士尼"
+type = "select"
+rule = ["[]DIRECT", "(^(?!.*(网易)).*)"]
+
+[[custom_groups]]
+name = "🎥 奈飞"
+type = "select"
+rule = ["[]DIRECT", "(^(?!.*(网易)).*)"]
+
+[[custom_groups]]
+name = "⭕ 油管"
+type = "select"
+rule = ["[]DIRECT", "[]🚀 手动2", "(^(?!.*(BGP|港|网易)).*)"]
+
+[[custom_groups]]
+name = "🅿 谷歌"
+type = "select"
+rule = ["[]⭕ 油管", "[]🔰 节点选择", "[]🚀 手动2"]
+
+[[custom_groups]]
+name = "🌀 微软"
+type = "select"
+rule = ["[]DIRECT", "(^(?!.*(网易)).*)"]
+
+[[custom_groups]]
+name = "📱 电报"
+type = "select"
+rule = ["[]DIRECT", "[]负载", "[]故障", "[]测速", "[]🚀 手动2"]
+
+[[custom_groups]]
+name = "👾 TikTok"
+type = "select"
+rule = ["[]DIRECT", "(^(?!.*(网易)).*)"]
+
+[[custom_groups]]
+name = "🃏 Emby"
+type = "select"
+rule = ["[]DIRECT", "(^(?!.*(网易)).*)"]
+
+[[custom_groups]]
+name = "📺 哔哩哔哩"
+type = "select"
+rule = ["[]DIRECT", "(港|台|HK|TW)"]
+
+[[custom_groups]]
+name = "📽 国外媒体"
+type = "select"
+rule = ["[]DIRECT", "(^(?!.*(网易)).*)"]
+
+[[custom_groups]]
+name = "📽 国内媒体"
+type = "select"
+rule = ["[]DIRECT", "(^(?!.*(网易)).*)"]
+
+[[custom_groups]]
+name = "🎮 游戏"
+type = "select"
+rule = ["[]DIRECT", "(^(?!.*(网易)).*)"]
+
+[[custom_groups]]
+name = "EPIC"
+type = "select"
+rule = ["[]DIRECT", "(^(?!.*(网易)).*)"]
+
+[[custom_groups]]
+name = "STEAM"
+type = "select"
+rule = ["[]DIRECT", "(^(?!.*(网易)).*)"]
+
+[[custom_groups]]
+name = "📢 谷歌FCM"
+type = "select"
+rule = ["[]DIRECT", "[]🅿 谷歌", "[]🔰 节点选择", "[]🚀 手动1", "[]🚀 手动2"]
+
+[[custom_groups]]
+name = "故障"
+type = "fallback"
+rule = ["(^(?!.*(网易)).*)"]
+url = "http://www.gstatic.com/generate_204"
+interval = 300
+tolerance = 100
+lazy = true
+
+[[custom_groups]]
+name = "测速"
+type = "url-test"
+rule = ["(iplc|中转|cast)"]
+url = "http://www.gstatic.com/generate_204"
+interval = 300
+tolerance = 100
+lazy = true
+
+[[custom_groups]]
+name = "负载"
+type = "load-balance"
+rule = ["(iplc|中转)"]
+interval = 300
+strategy = "consistent-hashing"
+url = "http://www.gstatic.com/generate_204"
+lazy = true
+
+[[custom_groups]]
+name = "🚫 广告拦截"
+type = "select"
+rule = ["[]REJECT", "[]DIRECT", "[]🔰 节点选择"]
+
+#链式代理
+#[[custom_groups]]
+#name = "链式"
+#type = "relay"
+#rule = ["[]REJECT", "[]DIRECT", "[]🔰 节点选择"]
+
+#[ruleset]
+# Enable generating rules with rulesets
+#enabled = true
+
+[[rulesets]]
+group = "🗝 OpenAI"
+ruleset = "https://raw.githubusercontent.com/ATa0ist/ClashRule/main/clash/openai.list"
+
+[[rulesets]]
+group = "📋 我的清单"
+ruleset = "https://raw.githubusercontent.com/ATa0ist/ClashRule/main/clash/mine.list"
+
+[[rulesets]]
+group = "📱 电报"
+ruleset = "https://raw.githubusercontent.com/ATa0ist/ClashRule/main/clash/telegram.list"
+
+[[rulesets]]
+group = "🎬 迪士尼"
+ruleset = "https://raw.githubusercontent.com/ATa0ist/ClashRule/main/clash/MediaOversea/Disney.list"
+
+[[rulesets]]
+group = "🎥 奈飞"
+ruleset = "https://raw.githubusercontent.com/ATa0ist/ClashRule/main/clash/MediaOversea/Netflix.list"
+
+[[rulesets]]
+group = "⭕ 油管"
+ruleset = "https://raw.githubusercontent.com/ATa0ist/ClashRule/main/clash/MediaOversea/Youtube.list"
+
+[[rulesets]]
+group = "🅿 谷歌"
+ruleset = "https://raw.githubusercontent.com/ATa0ist/ClashRule/main/clash/Google.list"
+
+[[rulesets]]
+group = "👾 TikTok"
+ruleset = "https://raw.githubusercontent.com/ATa0ist/ClashRule/main/clash/MediaOversea/TikTok.list"
+
+[[rulesets]]
+group = "🃏 Emby"
+ruleset = "https://raw.githubusercontent.com/ATa0ist/ClashRule/main/clash/MediaOversea/Emby.list"
+
+[[rulesets]]
+group = "📺 哔哩哔哩"
+ruleset = "https://raw.githubusercontent.com/ATa0ist/ClashRule/main/clash/MediaOversea/bilibili.list"
+
+[[rulesets]]
+group = "📽 国外媒体"
+ruleset = "https://raw.githubusercontent.com/ATa0ist/ClashRule/main/clash/MediaOversea/MediaOversea.list"
+
+[[rulesets]]
+group = "📽 国内媒体"
+ruleset = "https://raw.githubusercontent.com/ATa0ist/ClashRule/main/clash/MediaCN/MediaCN.list"
+
+[[rulesets]]
+group = "🎮 游戏"
+ruleset = "https://raw.githubusercontent.com/ATa0ist/ClashRule/main/clash/Game/game.list"
+
+[[rulesets]]
+group = "EPIC"
+ruleset = "https://raw.githubusercontent.com/ATa0ist/ClashRule/main/clash/Game/Platform/Epic.list"
+
+[[rulesets]]
+group = "STEAM"
+ruleset = "https://raw.githubusercontent.com/ATa0ist/ClashRule/main/clash/Game/Platform/Steam.list"
+
+[[rulesets]]
+group = "🌀 微软"
+ruleset = "https://raw.githubusercontent.com/ATa0ist/ClashRule/main/clash/Microsoft.list"
+
+[[rulesets]]
+group = "📢 谷歌FCM"
+ruleset = "https://raw.githubusercontent.com/ATa0ist/ClashRule/main/clash/GoogleFCM.list"
+
+[[rulesets]]
+group = "🎯 直连"
+ruleset = "https://raw.githubusercontent.com/ATa0ist/ClashRule/main/clash/Direct/direct.list"
+
+[[rulesets]]
+group = "🔰 节点选择"
+ruleset = "https://raw.githubusercontent.com/ATa0ist/ClashRule/main/clash/select.list"
+
+[[rulesets]]
+group = "🚫 广告拦截"
+ruleset = "https://raw.githubusercontent.com/ATa0ist/ClashRule/main/clash/AD/ad.list"
+
+[[rulesets]]
+group = "🎯 直连"
+ruleset = "[]GEOIP,CN"
+
+[[rulesets]]
+group = "🐟 漏网"
+ruleset = "[]FINAL"

@@ -14,11 +14,6 @@ type = "select"
 rule = ["[]DIRECT", "[]🔰 节点选择", "[]🚀 手动1", "[]🚀 手动2", "[]🚀 备用", "[]🚀 备测"]
 
 [[custom_groups]]
-name = "🗝 OpenAI"
-type = "select"
-rule = ["[]DIRECT", "[]🚀 备用", "!!GROUPID=0!!(^(?!.*(网易)).*)"]
-
-[[custom_groups]]
 name = "🔰 节点选择"
 type = "select"
 rule = ["[]DIRECT", "[]🚀 手动1", "[]🚀 手动2", "[]🚀 备用", "[]🚀 备测", "[]故障", "[]负载", "[]测速"]
@@ -37,6 +32,11 @@ rule = ["!!GROUPID=0!!(^(?!.*(网易)).*)"]
 name = "🐟 漏网"
 type = "select"
 rule = ["[]DIRECT", "[]🔰 节点选择", "[]🚀 备用", "[]🚀 备测"]
+
+[[custom_groups]]
+name = "🗝 OpenAI"
+type = "select"
+rule = ["[]DIRECT", "[]🚀 备用", "!!GROUPID=0!!(^(?!.*(网易)).*)"]
 
 [[custom_groups]]
 name = "🎬 迪士尼"

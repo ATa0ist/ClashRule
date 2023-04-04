@@ -14,11 +14,6 @@ type = "select"
 rule = ["[]DIRECT", "[]🔰 节点选择", "[]🚀 手动1", "[]🚀 手动2"]
 
 [[custom_groups]]
-name = "🗝 OpenAI"
-type = "select"
-rule = ["[]DIRECT", "(^(?!.*(网易)).*)"]
-
-[[custom_groups]]
 name = "🔰 节点选择"
 type = "select"
 rule = ["[]DIRECT", "[]🚀 手动1", "[]🚀 手动2", "[]故障", "[]负载", "[]测速"]
@@ -37,6 +32,11 @@ rule = ["(^(?!.*(网易)).*)"]
 name = "🐟 漏网"
 type = "select"
 rule = ["[]DIRECT", "[]🔰 节点选择"]
+
+[[custom_groups]]
+name = "🗝 OpenAI"
+type = "select"
+rule = ["[]DIRECT", "(^(?!.*(网易)).*)"]
 
 [[custom_groups]]
 name = "🎬 迪士尼"

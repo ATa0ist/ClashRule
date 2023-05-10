@@ -10,3 +10,5 @@ DOMAIN-SUFFIX,auth0.com
 DOMAIN-SUFFIX,auth0.openai.com
 #付款stripe.com
 DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,stripe.network
+DOMAIN-SUFFIX,stripecdn.com

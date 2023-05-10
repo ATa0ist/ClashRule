@@ -8,3 +8,5 @@ DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 DOMAIN-SUFFIX,identrust.com
 DOMAIN-SUFFIX,auth0.com
 DOMAIN-SUFFIX,auth0.openai.com
+#付款stripe.com
+DOMAIN-SUFFIX,stripe.com

@@ -114,6 +114,11 @@ type = "select"
 rule = ["[]DIRECT", "[]🅿 谷歌", "[]🔰 节点选择", "[]🚀 手动1", "[]🚀 手动2", "[]🚀 备用", "[]🚀 备测"]
 
 [[custom_groups]]
+name = "🧅 洋葱Tor"
+type = "select"
+rule = ["[]DIRECT", "[]🚀 手动1", "[]🚀 手动2", "[]🚀 备用", "[]🚀 备测"]
+
+[[custom_groups]]
 name = "故障"
 type = "fallback"
 rule = ["!!GROUPID=0!!(^(?!.*(网易)).*)"]
@@ -204,6 +209,10 @@ ruleset = "https://raw.githubusercontent.com/ATa0ist/ClashRule/main/clash/MediaO
 [[rulesets]]
 group = "🃏 Emby"
 ruleset = "https://raw.githubusercontent.com/ATa0ist/ClashRule/main/clash/MediaOversea/Emby.list"
+
+[[rulesets]]
+group = "🧅 洋葱Tor"
+ruleset = "https://raw.githubusercontent.com/ATa0ist/ClashRule/main/clash/Tor.list"
 
 [[rulesets]]
 group = "📺 哔哩哔哩"

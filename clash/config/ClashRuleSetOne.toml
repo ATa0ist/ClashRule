@@ -31,7 +31,7 @@ rule = ["(^(?!.*(网易)).*)"]
 [[custom_groups]]
 name = "🐟 漏网"
 type = "select"
-rule = ["[]DIRECT", "[]🔰 节点选择"]
+rule = ["[]DIRECT", "[]🔰 节点选择", "[]🚀 手动1", "[]🚀 手动2", "[]故障", "[]负载", "[]测速"]
 
 [[custom_groups]]
 name = "🗝 OpenAI"
@@ -181,6 +181,10 @@ group = "🎥 奈飞"
 ruleset = "https://raw.githubusercontent.com/ATa0ist/ClashRule/main/clash/MediaOversea/Netflix.list"
 
 [[rulesets]]
+group = "📢 谷歌FCM"
+ruleset = "https://raw.githubusercontent.com/ATa0ist/ClashRule/main/clash/GoogleFCM.list"
+
+[[rulesets]]
 group = "⭕ 油管"
 ruleset = "https://raw.githubusercontent.com/ATa0ist/ClashRule/main/clash/MediaOversea/Youtube.list"
 
@@ -227,10 +231,6 @@ ruleset = "https://raw.githubusercontent.com/ATa0ist/ClashRule/main/clash/Game/P
 [[rulesets]]
 group = "🌀 微软"
 ruleset = "https://raw.githubusercontent.com/ATa0ist/ClashRule/main/clash/Microsoft.list"
-
-[[rulesets]]
-group = "📢 谷歌FCM"
-ruleset = "https://raw.githubusercontent.com/ATa0ist/ClashRule/main/clash/GoogleFCM.list"
 
 [[rulesets]]
 group = "🎯 直连"

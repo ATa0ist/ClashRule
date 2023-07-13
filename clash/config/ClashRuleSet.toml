@@ -124,7 +124,7 @@ type = "fallback"
 rule = ["!!GROUPID=0!!(^(?!.*(网易)).*)"]
 url = "http://www.gstatic.com/generate_204"
 interval = 300
-tolerance = 100
+#tolerance = 50
 lazy = true
 
 [[custom_groups]]
@@ -133,7 +133,7 @@ type = "url-test"
 rule = ["!!GROUPID=0!!(iplc|中转|cast)"]
 url = "http://www.gstatic.com/generate_204"
 interval = 300
-tolerance = 100
+#tolerance = 50
 lazy = true
 
 [[custom_groups]]
@@ -161,7 +161,7 @@ type = "url-test"
 rule = ["!!GROUPID=1!!.*"]
 url = "http://www.gstatic.com/generate_204"
 interval = 300
-tolerance = 100
+#tolerance = 50
 lazy = true
 
 #链式代理

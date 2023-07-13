@@ -114,7 +114,7 @@ type = "select"
 rule = ["[]DIRECT", "[]🅿 谷歌", "[]🔰 节点选择", "[]🚀 手动1", "[]🚀 手动2"]
 
 [[custom_groups]]
-name = "📢🧅 洋葱Tor"
+name = "🧅 洋葱Tor"
 type = "select"
 rule = ["[]DIRECT", "[]🚀 手动1", "[]🚀 手动2"]
 

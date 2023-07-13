@@ -260,7 +260,7 @@ ruleset = "https://raw.githubusercontent.com/ATa0ist/ClashRule/main/clash/AD/ad.
 
 [[rulesets]]
 group = "🎯 直连"
-ruleset = "[]GEOIP,CN"
+ruleset = "[]GEOIP,CN,no-resolve"
 
 [[rulesets]]
 group = "🐟 漏网"

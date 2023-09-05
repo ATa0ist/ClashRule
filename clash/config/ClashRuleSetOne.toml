@@ -114,9 +114,19 @@ type = "select"
 rule = ["[]DIRECT", "[]🅿 谷歌", "[]🔰 节点选择", "[]🚀 手动1", "[]🚀 手动2"]
 
 [[custom_groups]]
+name = "☁️ Cloudflare"
+type = "select"
+rule = ["[]DIRECT", "[]🔰 节点选择", "[]🗝 OpenAI"]
+
+[[custom_groups]]
 name = "🧅 洋葱Tor"
 type = "select"
 rule = ["[]DIRECT", "[]🚀 手动1", "[]🚀 手动2"]
+
+[[custom_groups]]
+name = "⏬ BT下载"
+type = "select"
+rule = ["[]DIRECT", "[]🔰 节点选择", "[]🚀 手动1", "[]🚀 手动2"]
 
 [[custom_groups]]
 name = "故障"
@@ -165,6 +175,10 @@ group = "🗝 OpenAI"
 ruleset = "https://raw.githubusercontent.com/ATa0ist/ClashRule/main/clash/openai.list"
 
 [[rulesets]]
+group = "☁️ Cloudflare"
+ruleset = "https://raw.githubusercontent.com/ATa0ist/ClashRule/main/clash/Cloudflare.list"
+
+[[rulesets]]
 group = "📋 我的清单"
 ruleset = "https://raw.githubusercontent.com/ATa0ist/ClashRule/main/clash/mine.list"
 
@@ -203,6 +217,10 @@ ruleset = "https://raw.githubusercontent.com/ATa0ist/ClashRule/main/clash/MediaO
 [[rulesets]]
 group = "🧅 洋葱Tor"
 ruleset = "https://raw.githubusercontent.com/ATa0ist/ClashRule/main/clash/Tor.list"
+
+[[rulesets]]
+group = "⏬ BT下载"
+ruleset = "https://raw.githubusercontent.com/ATa0ist/ClashRule/main/clash/BT.list"
 
 [[rulesets]]
 group = "📺 哔哩哔哩"

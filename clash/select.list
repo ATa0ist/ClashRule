@@ -167,6 +167,7 @@ DOMAIN-SUFFIX,daumoon.com
 DOMAIN-SUFFIX,poe.com
 DOMAIN-SUFFIX,poecdn.net
 DOMAIN-SUFFIX,op.gg
+DOMAIN-SUFFIX,f-droid.org
 # #Slack
 DOMAIN-SUFFIX,slack-core.com
 DOMAIN-SUFFIX,slack-edge.com

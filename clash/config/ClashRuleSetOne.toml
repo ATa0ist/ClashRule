@@ -171,6 +171,10 @@ rule = ["[]REJECT", "[]DIRECT", "[]🔰 节点选择"]
 #enabled = true
 
 [[rulesets]]
+group = "🚫 广告拦截"
+ruleset = "https://raw.githubusercontent.com/ATa0ist/ClashRule/main/clash/AD/ad.list"
+
+[[rulesets]]
 group = "🗝 OpenAI"
 ruleset = "https://raw.githubusercontent.com/ATa0ist/ClashRule/main/clash/openai.list"
 
@@ -257,10 +261,6 @@ ruleset = "https://raw.githubusercontent.com/ATa0ist/ClashRule/main/clash/Direct
 [[rulesets]]
 group = "🔰 节点选择"
 ruleset = "https://raw.githubusercontent.com/ATa0ist/ClashRule/main/clash/select.list"
-
-[[rulesets]]
-group = "🚫 广告拦截"
-ruleset = "https://raw.githubusercontent.com/ATa0ist/ClashRule/main/clash/AD/ad.list"
 
 [[rulesets]]
 group = "🎯 直连"

@@ -255,12 +255,12 @@ group = "🌀 微软"
 ruleset = "https://raw.githubusercontent.com/ATa0ist/ClashRule/main/clash/Microsoft.list"
 
 [[rulesets]]
-group = "🎯 直连"
-ruleset = "https://raw.githubusercontent.com/ATa0ist/ClashRule/main/clash/Direct/direct.list"
-
-[[rulesets]]
 group = "🔰 节点选择"
 ruleset = "https://raw.githubusercontent.com/ATa0ist/ClashRule/main/clash/select.list"
+
+[[rulesets]]
+group = "🎯 直连"
+ruleset = "https://raw.githubusercontent.com/ATa0ist/ClashRule/main/clash/Direct/direct.list"
 
 [[rulesets]]
 group = "🎯 直连"

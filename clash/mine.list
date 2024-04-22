@@ -6,3 +6,6 @@ DOMAIN-SUFFIX,linkedin.com
 DOMAIN-SUFFIX,oracle.com
 DOMAIN-SUFFIX,bulianglin.com
 DOMAIN-SUFFIX,adguard.org
+# AI
+DOMAIN-SUFFIX,suno.ai
+DOMAIN-SUFFIX,suno.com

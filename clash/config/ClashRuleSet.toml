@@ -74,6 +74,11 @@ type = "select"
 rule = ["[]DIRECT", "[]🚀 备用", "[]🚀 备测", "!!GROUPID=0!!(^(?!.*(网易)).*)"]
 
 [[custom_groups]]
+name = "🅿 Pikpak"
+type = "select"
+rule = ["[]DIRECT", "[]🚀 备用", "[]🚀 备测", "!!GROUPID=0!!(福利|下载|中转|cast)"]
+
+[[custom_groups]]
 name = "🃏 Emby"
 type = "select"
 rule = ["[]DIRECT", "[]🚀 备用", "[]🚀 备测", "!!GROUPID=0!!(^(?!.*(网易)).*)"]
@@ -243,6 +248,10 @@ ruleset = "https://raw.githubusercontent.com/ATa0ist/ClashRule/main/clash/BT.lis
 [[rulesets]]
 group = "📺 哔哩哔哩"
 ruleset = "https://raw.githubusercontent.com/ATa0ist/ClashRule/main/clash/MediaOversea/bilibili.list"
+
+[[rulesets]]
+group = "🅿 Pikpak"
+ruleset = "https://raw.githubusercontent.com/ATa0ist/ClashRule/main/clash/MediaOversea/Pikpak.list"
 
 [[rulesets]]
 group = "📽 国外媒体"

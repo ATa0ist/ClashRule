@@ -168,6 +168,9 @@ DOMAIN-SUFFIX,poe.com
 DOMAIN-SUFFIX,poecdn.net
 DOMAIN-SUFFIX,op.gg
 DOMAIN-SUFFIX,f-droid.org
+# Bluesky
+DOMAIN-SUFFIX,bsky.network
+DOMAIN-SUFFIX,bsky.app
 # Twitter
 DOMAIN-SUFFIX,twimg.co
 DOMAIN-SUFFIX,twimg.org

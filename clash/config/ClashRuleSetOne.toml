@@ -21,12 +21,12 @@ rule = ["[]DIRECT", "[]🚀 手动1", "[]🚀 手动2", "[]故障", "[]负载", 
 [[custom_groups]]
 name = "🚀 手动1"
 type = "select"
-rule = ["(^(?!.*(网易)).*)"]
+rule = ["(^(?!.*(网址)).*)"]
 
 [[custom_groups]]
 name = "🚀 手动2"
 type = "select"
-rule = ["(^(?!.*(网易)).*)"]
+rule = ["(^(?!.*(网址)).*)"]
 
 [[custom_groups]]
 name = "🐟 漏网"
@@ -36,22 +36,22 @@ rule = ["[]DIRECT", "[]🔰 节点选择", "[]🚀 手动1", "[]🚀 手动2", "
 [[custom_groups]]
 name = "🗝 OpenAI"
 type = "select"
-rule = ["[]DIRECT", "(^(?!.*(网易)).*)"]
+rule = ["[]DIRECT", "(^(?!.*(网址)).*)"]
 
 [[custom_groups]]
 name = "🎬 迪士尼"
 type = "select"
-rule = ["[]DIRECT", "(^(?!.*(网易)).*)"]
+rule = ["[]DIRECT", "(^(?!.*(网址)).*)"]
 
 [[custom_groups]]
 name = "🎥 奈飞"
 type = "select"
-rule = ["[]DIRECT", "(^(?!.*(网易)).*)"]
+rule = ["[]DIRECT", "(^(?!.*(网址)).*)"]
 
 [[custom_groups]]
 name = "⭕ 油管"
 type = "select"
-rule = ["[]DIRECT", "[]🚀 手动2", "(^(?!.*(BGP|港|网易)).*)", "(BGP|港)"]
+rule = ["[]DIRECT", "[]🚀 手动2", "(^(?!.*(BGP|港|网址)).*)", "(BGP|港)"]
 
 [[custom_groups]]
 name = "🅿 谷歌"
@@ -61,7 +61,7 @@ rule = ["[]⭕ 油管", "[]🔰 节点选择", "[]🚀 手动2"]
 [[custom_groups]]
 name = "🌀 微软"
 type = "select"
-rule = ["[]DIRECT", "(^(?!.*(网易)).*)"]
+rule = ["[]DIRECT", "(^(?!.*(网址)).*)"]
 
 [[custom_groups]]
 name = "📱 电报"
@@ -71,7 +71,7 @@ rule = ["[]DIRECT", "[]负载", "[]故障", "[]测速", "[]🚀 手动2"]
 [[custom_groups]]
 name = "👾 TikTok"
 type = "select"
-rule = ["[]DIRECT", "(^(?!.*(网易)).*)"]
+rule = ["[]DIRECT", "(^(?!.*(网址)).*)"]
 
 [[custom_groups]]
 name = "🅿 Pikpak"
@@ -81,7 +81,7 @@ rule = ["[]DIRECT", "(福利|下载|中转|cast)"]
 [[custom_groups]]
 name = "🃏 Emby"
 type = "select"
-rule = ["[]DIRECT", "(^(?!.*(网易)).*)"]
+rule = ["[]DIRECT", "(^(?!.*(网址)).*)"]
 
 [[custom_groups]]
 name = "📺 哔哩哔哩"
@@ -91,27 +91,27 @@ rule = ["[]DIRECT", "(港|台|HK|TW)"]
 [[custom_groups]]
 name = "📽 国外媒体"
 type = "select"
-rule = ["[]DIRECT", "(^(?!.*(网易)).*)"]
+rule = ["[]DIRECT", "(^(?!.*(网址)).*)"]
 
 [[custom_groups]]
 name = "📽 国内媒体"
 type = "select"
-rule = ["[]DIRECT", "(^(?!.*(网易)).*)"]
+rule = ["[]DIRECT", "(^(?!.*(网址)).*)"]
 
 [[custom_groups]]
 name = "🎮 游戏"
 type = "select"
-rule = ["[]DIRECT", "(^(?!.*(网易)).*)"]
+rule = ["[]DIRECT", "(^(?!.*(网址)).*)"]
 
 [[custom_groups]]
 name = "EPIC"
 type = "select"
-rule = ["[]DIRECT", "(^(?!.*(网易)).*)"]
+rule = ["[]DIRECT", "(^(?!.*(网址)).*)"]
 
 [[custom_groups]]
 name = "STEAM"
 type = "select"
-rule = ["[]DIRECT", "(^(?!.*(网易)).*)"]
+rule = ["[]DIRECT", "(^(?!.*(网址)).*)"]
 
 [[custom_groups]]
 name = "📢 谷歌FCM"
@@ -136,7 +136,7 @@ rule = ["[]DIRECT", "[]🔰 节点选择", "[]🚀 手动1", "[]🚀 手动2"]
 [[custom_groups]]
 name = "故障"
 type = "fallback"
-rule = ["(^(?!.*(网易)).*)"]
+rule = ["(^(?!.*(网址)).*)"]
 url = "http://www.gstatic.com/generate_204"
 interval = 300
 #tolerance = 50
